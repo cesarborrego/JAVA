@@ -6,4 +6,8 @@ package com.company.excepciones;
  * @version 1.0
  */
 public class EscrituraDatosEx extends AccesoDatosEx {
+
+    public EscrituraDatosEx(String mensaje) {
+        super(mensaje);
+    }
 }
