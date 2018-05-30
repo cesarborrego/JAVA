@@ -13,7 +13,8 @@ public class Main {
     private static final CatalogoPeliculas catalogoPeliculas = new CatalogoPeliculasImpl();
 
     public static void main(String[] args) {
-        initMenu();
+        //initMenu();
+        pruebaString();
     }
 
     private static void initMenu() {
@@ -49,5 +50,11 @@ public class Main {
             }
             System.out.println("\n");
         }
+    }
+
+    private static void pruebaString() {
+        String s1 = "1001";
+        Integer i = Integer.parseInt(s1);
+        System.out.println(s1.equals(i));
     }
 }
